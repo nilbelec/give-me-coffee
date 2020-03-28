@@ -1,12 +1,12 @@
-const { app, powerSaveBlocker, Menu, Tray } = require('electron');
+const { app, powerSaveBlocker, nativeTheme, Menu, Tray } = require('electron');
 const path = require('path');
 
 if (require('electron-squirrel-startup')) {
   app.quit();
 }
 
-const INACTIVE = path.join(__dirname, 'inactive.png')
-const ACTIVE = path.join(__dirname, 'active.png')
+const INACTIVE = path.join(__dirname, 'img/inactiveTemplate.png')
+const ACTIVE = path.join(__dirname, 'img/activeTemplate.png')
 
 let powerSaveId = undefined
 let tray
