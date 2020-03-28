@@ -37,7 +37,7 @@ const toggle = () => {
 }
 
 const contextMenu = Menu.buildFromTemplate([
-  { label: 'Exit', role: 'quit' },
+  { label: 'Quit', role: 'quit' },
 ])
 
 const createTrayIcon = () => {
