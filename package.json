@@ -1,6 +1,6 @@
 {
   "name": "give-me-coffee",
-  "productName": "give-me-coffee",
+  "productName": "GiveMeCoffee",
   "version": "0.0.1",
   "description": "My Electron application description",
   "main": "src/index.js",
